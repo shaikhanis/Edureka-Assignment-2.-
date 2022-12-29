@@ -1,0 +1,133 @@
+.main {
+    top: 0px;
+    left: 0px;
+    width: 1366px;
+    height: 1080px;
+    background: #726c6c 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.big-image {
+    /* top: 0px;
+    left: 0px;
+    width: 1474px;
+    height: 480px;
+    background: transparent linear-gradient(180deg, #9D0E0E00 0%, #4F0707 100%) 0% 0% no-repeat padding-box;
+    background-image: url(../assets/images/image.png);
+    background-repeat: no-repeat;
+    background-size: 1474px 400px;
+    height: 100vh;
+    mix-blend-mode: multiply;
+    opacity: 1; */
+
+    top: 0px;
+    left: 0px;
+    width: 1366px;
+    height: 480px;
+    background: transparent linear-gradient(180deg, #9D0E0E00 0%, #4F0707 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: 1;
+}
+
+.circle {
+    top: 81px;
+    left: 610px;
+    width: 147px;
+    height: 147px;
+    margin: auto auto;
+    border-radius: 50%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #d674ec;
+    opacity: 1;
+}
+
+.elogo {
+    top: 105px;
+    left: 649px;
+    width: 68px;
+    height: 99px;
+    text-align: left;
+    margin: auto auto;
+    padding: 15px 0px 0px 4px;
+    font: normal normal 600 70px/106px Poppins;
+    letter-spacing: 0px;
+    color: #EB2929;
+    opacity: 1;
+}
+
+.bigtext {
+    font-family: Poppins;
+    margin: 300px;
+    font: normal normal 600 35px/55px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.text {
+    top: 339px;
+    left: 312px;
+    width: 245px;
+    height: 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+.text1 {
+    top: 339px;
+    left: 578px;
+    width: 477px;
+    height: 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+
+.quick {
+    font: normal normal bold 33px/46px Poppins;
+    color: #192F60;
+}
+
+.discover {
+    font: normal normal normal 18px/27px Poppins;
+    color: #8C96AB;
+}
+
+/* down part of page start hera */
+
+.lifestyle {
+    top: 636px;
+    left: 113px;
+    width: 360px;
+    height: 160px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+
+.image {
+    top: 636px;
+    left: 113px;
+    width: 160px;
+    height: 160px;
+}
+
+.heading {
+    top: 661px;
+    left: 302px;
+    width: 88px;
+    height: 25px;
+    text-align: left;
+    font: normal normal 600 18px/27px Poppins;
+    color: #192F60;
+}
+
+.subheading {
+    top: 690px;
+    left: 302px;
+    width: 138px;
+    height: 62px;
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    color: #8C96AB;
+}
+
+/* down part of page end hera */
