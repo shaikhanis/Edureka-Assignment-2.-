@@ -7,7 +7,6 @@
     background: #f2f0f0 0% 0% no-repeat padding-box;
 }
 
-
 .big-image {
     top: 0px;
     left: 0px;
@@ -37,6 +36,8 @@
     color: #EB2929;
 }
 
+
+
 .bigtext {
     font-family: Poppins;
     font: normal normal 600 35px/55px Poppins;
@@ -44,6 +45,18 @@
     color: #FFFFFF;
 }
 
+/* search icon start here */
+#searchIcon{
+    position: absolute;
+    left: 1rem;
+  }
+  
+  #inputLocation{
+    border: none;
+    min-height: 58px;
+  }
+
+  /* search icon end here  */
 .quick {
     font: normal normal bold 33px/46px Poppins;
     color: #192F60;
@@ -81,8 +94,8 @@
 }
 
 .card-text {
-    top: 690px;
-    left: 692px;
+    top: 0px;
+    left: 0px;
     width: 138px;
     height: 62px;
     text-align: left;
@@ -103,4 +116,13 @@
     font: normal normal 600 18px/27px Poppins;
     color: #192F60;
 }
-
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
