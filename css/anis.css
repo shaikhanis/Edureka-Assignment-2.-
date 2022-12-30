@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  background-color: #FBFBFB ;
+  font-family: "Poppins";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bg-img{
+  z-index: -1;
+  min-width: 100%;
+  min-height: 960px;
+  object-fit:cover;
+}
+
+.bg-img-div{
+  position: absolute;
+  left: 0;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+.cover{
+  position: relative;
+  height: 480px;
+  background: linear-gradient(#9D0E0E10, rgba(47, 5, 5, 0.8));
+  color: white;
+}
+
+.cl-db{
+  color: #192F60 !important;
+}
+
+.cl-dg{
+  color: #8C96AB;
+}
+
+#searchIcon{
+  position: absolute;
+  left: 1rem;
+}
+
+#logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 140px;
+  font-size: 70px;
+}
+
+#inpLocation{
+  border: none;
+  min-height: 58px;
+}
+
+.title{
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.navbar{
+  z-index: 1;
+}
+
+#login:hover{
+  color: #dc3545 !important;
+  border-bottom: 2px solid #dc3545 !important;
+  transition: 0.15s;
+}
+
+#register{
+  min-width: 200px !important;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+#register:hover{
+  background-color: white !important;
+  color: #dc3545 !important;
+  transition: 0.15s;
+}
+
+.searchItem{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  min-height: 160px;
+  padding: 0 !important;
+  box-shadow: 0px 3px 6px #00000029;
+  transition: 0.15s;
+}
+
+.searchItem img{
+  min-width: 45%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.searchItem div h5{
+  font-size: 18px;
+}
+.searchItem p{
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.searchItem:hover{
+  transform: scale(1.025);
+  transition: 0.15s;
+}
+
+@media (width<=769px) {
+  #logo{
+    width: 90px;
+    height: 90px;
+    font-size: 42px;
+  }
+
+  .title{
+    font-size: 28px;
+  }
+
+  #inpLocation{
+    min-width: 37px;
+  }
+}

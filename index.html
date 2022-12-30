@@ -15,8 +15,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-
-
     <title>Assignment2</title>
 
 </head>
@@ -36,10 +34,10 @@
                         <div class="col-md-3 offset-md-9">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link text-light" href="https://github.com/shaikhanis">Login</a>
+                                    <a class="nav-link text-dark" href="https://github.com/shaikhanis">Login</a>
                                 </li>
                                 <li class="nav-item">
-                                    <button class="btn btn-outline-light" type="submit">Create an Account</button>
+                                    <button class="btn btn-outline-dark" type="submit">Create an Account</button>
                                 </li>
                             </ul>
                         </div>
@@ -47,96 +45,301 @@
                 </div>
             </nav><br>
 
-            <div class="circle">
+            <div class=" col-md-12 offset-md-5 circle">
                 <div class="elogo">e!</div>
-            </div>
+            </div><br>
             <!--  -->
-            <span class="bigtext">Find the best restaurants, cafés, and bars</span><br><br />
+            <strong class=" col-md-12 offset-md-3 bigtext">Find the best restaurants, cafés, and bars</strong><br><br />
             <!--  -->
 
             <!-- search Start here -->
 
-            <div class="row">
-                <div class="col-md-12 offset-md-3 text">
-                    <input type="text-muted" placeholder="Please type a location" class="form-control find"> </input>
+            <div class="row w-100 justify-content-center px-4 gx-5 gy-4"><select id="location" name="location"
+                    class="col-xl-2 col-lg-3 col-md-3 col-sm-9 col-xs-12 bg-white text-dark border px-3 py-3 mx-3 cl-db">
+
+                    <option value="none">Select a location</option>
+                    <option value="Ludhiana">Ludhiana</option>
+                    <option value="Chandigarh">Chandigarh</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Dehradun">Dehradun</option>
+                    <option value="Delhi">Delhi</option>
+                </select>
+
+                <div
+                    class="d-flex col-xl-4 align-items-center col-lg-5 col-md-6 col-sm-9 col-xs-12 bg-white text-dark border px-0 mx-2 cl-dg position-relative ">
+                    <i id="searchIcon" class="zmdi zmdi-search zmdi-hc-lg mx-1"></i>
+                    <input id="inpLocation" type="text" class="h-100 w-100 px-5 cl-db"
+                        placeholder="Search for restaurants">
                 </div>
-                <div class="col-md-12 offset-md-6 text1">
-                    <input type="text-muted location" placeholder="Search for restaurants"
-                        class="form-control find"></input>
-                </div>
+
             </div>
+
             <!--  -->
         </div><br><br />
 
-        <div class=" offset-md-1 quick"> Quick Searches</div><br />
-        <div class=" offset-md-1 discover">Discover restaurant by type of meal</div><br><br />
+        <!-- <div class=" offset-md-1 quick"> Quick Searches</div><br /> -->
+        <!-- <div class=" offset-md-1 discover">Discover restaurant by type of meal</div><br><br /> -->
 
-        <!-- after a quick serch -->
-        <div class="row">
-
-            <!-- breakfast start here -->
-            <div class=" clom-md-3 offset-md-1 lifestyle">
-
-                <img src="./assets/images/Breakfast.png.png" alt="image" class="image">
-                <samp class="heading">Breakfast</samp><br>
-                <samp class="subheading">Start your day with exclusive breakfast option</samp>
-
-            </div>
-
-            <!-- breakfast end here  -->
-
-            <!--  -->
-
-            <div class="col-md-3 lifestyle">
-                <img src="./assets/images/Lunch.png.png" alt="image" class="image">
-
-            </div>
-
-            <!--  -->
-
-            <!--  -->
-
-            <div class="col-md-3 lifestyle">
-                <img src="./assets/images/Snacks.png.png" alt="image" class="image">
-
-            </div>
-
-            <!--  -->
-
-        </div><br><br />
 
 
 
         <!-- after a quick serch -->
+
+        <!-- <div class="container-fluid"> -->
+        <!-- row for the title -->
+        <!-- <div class="row">
+                <div class="col-md-12">
+                    <h2 class=" col-md-12 offset-md-1 quick">Quick Searches</h2>
+                    <h4 class="col-md-12 offset-md-1 discover">Discover restaurants by type of meal</h4>
+                </div>
+            </div><br> -->
+
+        <!-- first row will contain 3 cards using 3 columns -->
+
+        <!-- <div class="row">
+
+
+                <div class="col-md-3 offset-md-1"> -->
+        <!-- card for Breakfast -->
+        <!-- <div class="card mb-3 box">
+                        <div class="row g-0">
+                            <div class="col-md-5 fill">
+                                <img src="/assets/images/Breakfast.png.png" class="img-fluid rounded-start" alt="image" />
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title heading">Breakfast</h5>
+                                    <p class="text-muted">Start your day with exclusive breakfast options</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3"> -->
+        <!-- card for Lunch -->
+        <!-- <div class="card mb-3 box">
+                        <div class="row g-0">
+                            <div class="col-md-5 fill">
+                                <img src="/assets/images/Lunch.png.png" class="img-fluid rounded-start" alt="image" />
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title heading">Lunch</h5>
+                                    <p class="text-muted">Start your day with exclusive lunch options</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 "> -->
+        <!-- card for Snacks -->
+        <!-- <div class="card mb-3 box">
+                        <div class="row g-0">
+                            <div class="col-md-5 fill">
+                                <img src="/assets/images/Snacks.png.png" class="img-fluid rounded-start" alt="image" />
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title heading">Snacks</h5>
+                                    <p class="text-muted">Start your day with exclusive snacks options</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div> -->
+
+        <!-- second row will contain 3 cards using 3 columns -->
+        <!-- <div class="row">
+
+                <div class="col-md-3 offset-md-1"> -->
+        <!-- card for Denner -->
+        <!-- <div class="card mb-3 box">
+                        <div class="row g-0">
+                            <div class="col-md-5 fill">
+                                <img src="/assets/images/Denner.png.png" class="img-fluid rounded-start" alt="image" />
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title heading">Dinner</h5>
+                                    <p class="text-muted">Start your day with exclusive dinner options</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3"> -->
+        <!-- card for Drinks -->
+        <!-- <div class="card mb-3 box">
+                        <div class="row g-0">
+                            <div class="col-md-5 fill">
+                                <img src="/assets/images/Drinks.png.png" class="img-fluid rounded-start" alt="image" />
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title heading">Drinks</h5>
+                                    <p class="text-muted">Start your day with exclusive drinks options</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+
+        <!-- <div class="col-md-3"> -->
+        <!-- card for Nightlife -->
+        <!-- <div class="card mb-3 box">
+                        <div class="row g-0">
+                            <div class="col-md-5 fill">
+                                <img src="/assets/images/Nightlife.png.png" class="img-fluid rounded-start" alt="image" />
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title heading">Nightlife</h5>
+                                    <p class="text-muted">Start your day with exclusive night life options</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div> -->
+
+        <!-- end her -->
+
+
+
         <div class="row">
-
-            <!-- breakfast start here -->
-            <div class=" clom-md-3 offset-md-1 lifestyle">
-                <img src="./assets/images/Denner.png.png" alt="image" class="image">
-
+            <div class="clo-md-11 offset-md-1">
+                <h2 class="heading">Quick Search</h2>
             </div>
-
-            <!-- breakfast end here  -->
-
-            <!--  -->
-
-            <div class="col-md-3 lifestyle">
-                <img src="./assets/images/Drinks.png.png" alt="image" class="image">
-
-            </div>
-
-            <!--  -->
-
-            <!--  -->
-
-            <div class="col-md-3 lifestyle">
-                <img src="./assets/images/Nightlife.png.png" alt="image" class="image">
-
-            </div>
-
-            <!--  -->
-
+            <h4 class="subheading  col-md-11 offset-md-1 text-muted">Discover restaurants by type of meal</h4>
         </div>
+
+
+        <!-- craet a one dive fot breakfat to snacks -->
+
+        <div class="row">
+            <div class="col-md-3 offset-md-1">
+
+                <!-- card for breakfast -->
+                <div class="card mb-3">
+                    <div class="row g-0">
+
+                        <div class="col-md-4 fill">
+                            <img src="/assets/images/Breakfast.png.png" class="img-fluid rounded-start"
+                                alt="Brakfast image" style="width: 125px; height: 149px"/>
+                        </div>
+
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title card-heading">Breakfast</h5>
+                                <p class="card-text text-muted">Start your day with exclusive breakfast options</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-3">
+                <!-- card for lunch -->
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4 fill">
+                            <img src="/assets/images/Lunch.png.png" class="img-fluid rounded-start"
+                                alt="Lunch Image " style="width: 125px; height: 149px"/>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title card-heading">Lunch</h5>
+                                <p class="card-text text-muted">Start your day with exclusive lunch options</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <!-- card for Snacks -->
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4 fill">
+                            <img src="/assets/images/Snacks.png.png" class="img-fluid rounded-start"
+                                alt="Snacks image" style="width: 125px; height: 149px"/>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title card-heading">Snacks</h5>
+                                <p class="card-text text-muted">Start your day with exclusive drinks options</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+        <!-- second row will contain 3 cards using 3 columns -->
+        <div class="row">
+            <div class="col-md-3 offset-md-1">
+                <!-- card for Dinner -->
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4 fill">
+                            <img src="/assets/images/Denner.png.png" class="img-fluid rounded-start"
+                                alt="Dinner image" style="width: 125px; height: 149px"/>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title card-heading">Denner</h5>
+                                <p class="card-text text-muted">Start your day with exclusive dinner options</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <!-- card for drinks -->
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4 fill">
+                            <img src="/assets/images/Drinks.png.png" class="img-fluid rounded-start"
+                                alt="Drinks images" style="width: 125px; height: 149px"/>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title card-heading">Drinks</h5>
+                                <p class="card-text text-muted">Start your day with exclusive drinks options</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <!-- card for nightlife -->
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4 fill">
+                            <img src="/assets/images/Nightlife.png.png" class="img-fluid rounded-start"
+                                alt="Nightlife image" style="width: 125px; height: 149px"/>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title card-heading">Nightlife</h5>
+                                <p class="card-text text-muted">Start your day with exclusive night life options</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
 
         <!-- image container end here -->
